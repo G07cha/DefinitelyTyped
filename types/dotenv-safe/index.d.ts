@@ -30,11 +30,6 @@ export interface DotenvSafeOptions {
    */
   sample?: string,
   /**
-   * Path to environment file.
-   * @default ".env"
-   */
-  silent?: boolean,
-  /**
    * Encoding of your file containing environment variables.
    * @default "utf8"
    */
